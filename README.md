@@ -43,7 +43,7 @@ Things you may want to cover:
 ## user_groupテーブル
 
 |Column|Type|Options|
-|-----------|-------|
+|------|-----|------|
 |user_id|integer|foregin_key: true|
 |group_id|integer|forgin_key: true|
 
