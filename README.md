@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-##usersテーブル
+## usersテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -34,18 +34,20 @@ Things you may want to cover:
 |native|string|null: false|
 |present|string|null: false|
 
-##groupsテーブル
+## groupsテーブル
 
 |Column|Type|Options|
+|------|----|-------|
 |area|string|null: false|
 
-##user_groupテーブル
+## user_groupテーブル
 
 |Column|Type|Options|
+|-----------|-------|
 |user_id|integer|foregin_key: true|
 |group_id|integer|forgin_key: true|
 
-##messagesテーブル
+## messagesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -54,7 +56,7 @@ Things you may want to cover:
 |user_id|integer|foregin_key: true|
 |group_id|integer|foregin_key: true|
 
-##commentsテーブル
+## commentsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
